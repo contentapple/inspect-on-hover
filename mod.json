@@ -1,0 +1,19 @@
+{
+  "Name": "Inspect On Hover",
+  "Author": "ContentApple",
+  "Description": "Automatically opens the Inspect UI when hovering a living human, but this version keeps the inspect UI open.",
+  "ModVersion": "1.0",
+  "GameVersion": "1.27",
+  "ThumbnailPath": "thumbnail.png",
+  "EntryPoint": "Mod.Mod",
+  "Tags": [
+    "Utility"
+  ],
+  "Scripts": [
+    "mod.cs"
+  ],
+  "Active": true,
+  "UGCIdentity": null,
+  "CreatorUGCIdentity": "3676664673",
+  "AssemblyName": null
+}
