@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5fa7483c-20cd-4d7b-9142-c8839111bb32" width="600">
 </p>
+
 # Auto-Inspect on Hover — Source Code Transparency Release
 
 This repository contains the source code for my People Playground mod **Auto-Inspect on Hover**, available at https://steamcommunity.com/sharedfiles/filedetails/?id=3676664673
