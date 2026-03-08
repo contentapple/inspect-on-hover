@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Mod
@@ -11,9 +11,11 @@ namespace Mod
         }
     }
 
+    // Refactored function
     public class HoverInspectSticky : MonoBehaviour
     {
         private PersonBehaviour lastPerson;
+        LimbStatusViewBehaviour inspector = Object.FindObjectOfType<LimbStatusViewBehaviour>(true);
 
         private void Update()
         {
@@ -22,37 +24,28 @@ namespace Mod
 
             PersonBehaviour p = null;
 
-            if (hit != null)
-            {
+            // Less checks being taken per frame unnecessarily than original
+            if (hit != null && lastPerson != hit.GetComponentInParent<LimbBehaviour>()){
                 LimbBehaviour limb = hit.GetComponentInParent<LimbBehaviour>();
-                if (limb != null)
+                p = limb.Person;
+                
+                // If person or inspector is missing, cancel before causing errors
+                if (inspector == null || p == null) return;
+
+                // Gets each limb and appends to a list
+                List<LimbBehaviour> validLimbs = new List<LimbBehaviour>();
+                foreach (var limby in p.Limbs)
                 {
-                    p = limb.Person;
+                    if (limby != null)
+                        validLimbs.Add(limby);
                 }
-            }
 
-            var inspector = Object.FindObjectOfType<LimbStatusViewBehaviour>(true);
-            if (inspector == null) return;
-
-            if (p == null)
-                return;
-
-            List<LimbBehaviour> validLimbs = new List<LimbBehaviour>();
-            foreach (var limb in p.Limbs)
-            {
-                if (limb != null)
-                    validLimbs.Add(limb);
-            }
-
-            if (validLimbs.Count == 0)
-                return;
-
-            if (p != lastPerson)
-            {
+                // Update inspector once per hover on a person
                 inspector.gameObject.SetActive(true);
                 inspector.Limbs = validLimbs;
                 lastPerson = p;
             }
+
         }
     }
 }
