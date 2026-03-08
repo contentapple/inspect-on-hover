@@ -1,8 +1,8 @@
 {
-  "Name": "Inspect On Hover",
+  "Name": "Inspect On Hover Sticky",
   "Author": "ContentApple",
-  "Description": "Automatically opens the Inspect UI when hovering a living human, but this version keeps the inspect UI open.",
-  "ModVersion": "1.0",
+  "Description": "Refactored by Noxoreits | Automatically opens the Inspect UI when hovering a living human, but this version keeps the inspect UI open.",
+  "ModVersion": "2.0",
   "GameVersion": "1.27",
   "ThumbnailPath": "thumbnail.png",
   "EntryPoint": "Mod.Mod",
