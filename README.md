@@ -1,3 +1,17 @@
+Simply refactored the code to increase performance by reducing redundant checks and organising the code better.
+
+## My specs are a "Ryzen 5 3400G, GTX 1650 Super and 16GB DDR4 3166MHZ RAM"
+## Tested with 10 people with all other mods disabled:
+His Mod : ~60fps with lows of 30fps
+My Refactor : ~130fps with lows of 100fps
+
+My intention of posting this is so that the original creator can update his steam workshop version with mine as he does not permit modifying or redistributing.
+## If used to update the original, I want credit for the refactoring of the code!!!
+
+## ---------------------------------------------------------------
+## EVERYTHING BELOW THIS LINE IS WRITTEN BY "ContentApple"
+## ---------------------------------------------------------------
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5fa7483c-20cd-4d7b-9142-c8839111bb32" width="320">
 </p>
