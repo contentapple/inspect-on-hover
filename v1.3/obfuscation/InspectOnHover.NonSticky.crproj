@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project outputDir=".\out-nonsticky" baseDir="." xmlns="http://confuser.codeplex.com">
+  <module path="InspectOnHover.NonSticky.dll">
+    <rule pattern="true" inherit="false">
+      <protection id="rename" action="remove" />
+      <protection id="invalid metadata" action="remove" />
+      <protection id="anti ildasm" />
+      <protection id="anti debug" />
+      <protection id="anti dump" />
+      <protection id="anti tamper" />
+      <protection id="constants" />
+      <protection id="ctrl flow" />
+      <protection id="ref proxy" />
+      <protection id="resources" />
+    </rule>
+  </module>
+
+  <probePath>.</probePath>
+</project>
