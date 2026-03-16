@@ -1,0 +1,19 @@
+{
+  "Name": "DLL Test Non Sticky",
+  "Author": "ContentApple",
+  "Description": "Automatically opens the Inspect UI when hovering a living human.",
+  "ModVersion": "1.3",
+  "GameVersion": "1.27",
+  "ThumbnailPath": "thumbnail.png",
+  "EntryPoint": "Mod.Mod",
+  "Tags": [
+    "Utility"
+  ],
+  "Scripts": [
+    "mod.cs"
+  ],
+  "Active": false,
+  "UGCIdentity": null,
+  "CreatorUGCIdentity": "3678872331",
+  "AssemblyName": "InspectOnHover.NonSticky.Protected.v2.dll"
+}

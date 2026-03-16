@@ -2,21 +2,20 @@
   <img src="https://github.com/user-attachments/assets/5fa7483c-20cd-4d7b-9142-c8839111bb32" width="320">
 </p>
 
-# Note: This repository will stop receiving updates until furthur notice.
+# This project & repository have been re-opened.
 
 ## Why this happened
 
 If you are not aware there has been significant hate on this mod, apparently the PPG community is toxic and unsupportive, take that with a grain of salt.
-I am trying to figure out how to balence trust and optimization with significant protection against people "rewriting" the mod.
+However, I have decided to re-open my project and I present to you and the PPG community, IOH v1.3
 
-Since the vulnerability that FPS++ used was patched, and the majority of the heat over it has been gone, I plan on obfuscating the newest version of both Inspect on Hover
-and Inspect on Hover Non-Sticky.
-
-# Auto-Inspect on Hover — Overhauled  Version
+# Auto-Inspect on Hover — v1.3
 
 This repository contains the source code for my People Playground mod **Auto-Inspect on Hover**, available at https://steamcommunity.com/sharedfiles/filedetails/?id=3676664673
 
 All performance issues have been revised and solved, and have been tested with multiple people on both high end and low end devices.
+I also removed all former parts of the mod that were causing lag and the frame by frame checks to see if the player was hovering over a human.
+The old logic has all been replaced, the mod now boasts 600+ FPS that is stable no matter how many humans you are hovering over. (GeForce RTX 4060)
 
 The code is published **only for visibility and transparency**, so players and moderators can verify how the mod works internally.
 
@@ -48,5 +47,5 @@ This is a **read-only transparency release**.
 
 ## Copyright
 
-© 2026 ContentApple.  
+© 2026 ContentApple  
 All rights reserved.

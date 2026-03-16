@@ -1,0 +1,23 @@
+This is old and is not updated.
+
+[h1][b]Auto-Inspect on Hover (Non-Sticky)[/b][/h1]
+
+Hover any person to open the Inspect panel instantly. In this Non-Sticky version, the panel closes as soon as you are no longer hovering a person.
+
+No clicking. No menu steps. Just hover.
+
+[h1][b]Features[/b][/h1]
+[list]
+[*] Opens Inspect immediately when your cursor is over a limb.
+[*] Hides Inspect right away when hover is lost.
+[*] Handles damaged and partial bodies cleanly, including severed limbs.
+[*] Updates only when hover state changes for smooth, flicker-free behavior.
+[*] Lightweight runtime design with minimal overhead.
+[/list]
+
+[h1][b]Sticky Version[/b][/h1]
+Prefer keeping Inspect open after hover ends? Use the Sticky version:
+https://steamcommunity.com/sharedfiles/filedetails/?id=3676664673
+
+[h1][b]Links[/b][/h1]
+Source code: https://github.com/contentapple/inspect-on-hover
